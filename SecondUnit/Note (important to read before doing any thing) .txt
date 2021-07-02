@@ -1,0 +1,3 @@
+1- when you want to load a vmd file like (final.vmd) before loading the file you have to give him the directory of the files that he needs    to get the files, so you have to give him the dierectory of the previous folder. For example you want to to load final.vmd that in (2.2       Alignment of Membrane and Protein) folder so you should to give hime the directory of (2.1 Building a Membrane Patch) folder because this folder    is already got it from the files that in (2.1 Building a Membrane Patch) folder.
+
+2- but when you want to open a folder called (open.vmd). You have to give him the directory of this file only. 
