@@ -51,5 +51,12 @@ When using a membrane patch that has not been equilibrated, like those provided 
 that are typical during the first dynamics of a new system in an NpT ensemble. Otherwise, the simulation will likely finish with the message: FATAL ERROR: Periodic cell has become too small for original patch grid! (in which case you should just restart your simulation from the last saved restart files).
 The second set of additional parameters calls a Tcl script, named keep water out.tcl, which prevents hydration of the membrane-protein interface during equilibration. Now that the protein has been equilibrated, we are ready to perform production runs. There will be one main difference with the previous simulations you have already performed. Production runs may feature additional parameters or employ different computational techniques that suit the purpose of the investigation being carried out. The outcome of the simple production run presented here can already be analyzed in a number of different ways. For instance, you may want to try different VMD tools that allow you to compute density of water molecules, ions,or lipids, as well as electrostatic potentials, RMSD, motion of center of mass and diffusion of molecules. This ends the Membrane Proteins tutorial. We hope that you learned a lot with it, and that you will make a great use of all the capabilities VMD and NAMD have to offer for simulations of membrane protein systems.
 
+<p  href="url" align="center"  >
+  <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic11.png"             height="300" width="400"  />
+ <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic12.png"              height="300" width="400" /> 
+</p>
 
+<p  href="url" align="center"  >
+  <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic13.png"             height="300" width="400"  />
+</p>
 
