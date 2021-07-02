@@ -32,6 +32,18 @@ KcsA tetramer, noting that for many other membrane proteins, this step will not 
 In this second unit, you will learn how to take your solvated KcsA channel and place it in a membrane. Then you will solvate and ionize the entire system. The first step is to prepare a complete membrane. This is usually done by replicating a pre-equilibrated patch of membrane and water, then trimming it if necessary. The VMD Membrane Builder plugin automates this process. The steps in this section and the following one (Alignment of Membrane and Protein) are also covered in the script memprot-align.tcl. NOTE: If you skipped the previous section, you should either use the files kcsa solv.psf and kcsa solv.pdb from the example output, or replace every instance of these files with kcsav.psf and kcsav.pdb in the following instructions. Now that we have a suitable membrane patch and a partially solvated protein, the next step is to align them with one another properly. Now we need to make room for the KcsA in the membrane layer, so that the protein doesn’t overlap any lipid molecules. As in the section above on using Grubm¨uller’s Solvate program, we want to find good selection criteria in VMD,
 and then mark the molecules we want to delete. All commands in this section are also included in the script remove lipwat.tcl. We will again use the beta field of the atoms to mark the “bad lipids”. This time, though, the selection will be slightly more complicated. We will now solvate and ionize the system. VMD’s Solvate plugin is quite simple: it places your solute in a box of water of a specified size, then removes water which is within a certain cut-off distance. We will remove any water which adds inside the lipid bilayer as well. Steps 2-6 are also included in the script solv remove.tcl.
 
+
+<p  href="url" align="center"  >
+  <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic6.png"             height="300" width="400"  />
+ <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic7.png"              height="300" width="400" /> 
+</p>
+
+<p  href="url" align="center"  >
+  <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic9.png"             height="300" width="400"  />
+ <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic10.png"              height="300" width="400" /> 
+</p>
+
+
 ***
 ## 3 - Running a Simulation of KcsA:
 In unit 3, you will use the model containing KcsA embedded in a membrane to perform molecular dynamics simulations and obtain an equilibrated system.
