@@ -12,6 +12,20 @@ view it using VMD. The PDB file 1K4C.pdb contains the atom coordinates of a mono
 the KcsA tetramer. However, for most proteins, there is only one subunit, or all subunits are present in the original PDB file. Here you will build the whole
 KcsA tetramer, noting that for many other membrane proteins, this step will not be necessary.
 
+<p  href="url" align="center"  >
+  <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic1.png"             height="300" width="400"  />
+ <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic2.png"              height="300" width="400" /> 
+</p>
+
+<p  href="url" align="center"  >
+  <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic3.png"             height="300" width="400"  />
+ <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic4.png"              height="300" width="400" /> 
+</p>
+
+
+<p  href="url" align="center"  >
+ <img src="https://github.com/AhmedSamirScience/Membrane_Proteins_Simulation./blob/main/pic5.png"              height="300" width="400" /> 
+</p>
 
 ***
 ## 2 Placing KcsA in a Membrane:
